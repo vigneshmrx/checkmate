@@ -1,0 +1,5 @@
+heading: TRIP PLANNING
+item: Get essential medicines
+item: Get insurance
+item: Buy warm clothes
+item: Buy two pairs of shoes

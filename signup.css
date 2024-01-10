@@ -1,0 +1,118 @@
+body {
+    background: var(--main-white);
+    font-family: "Roboto Mono";
+}
+
+.container {
+    display: flex;
+}
+
+.left-area, 
+.right-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 100vh;
+}
+
+.greeting-area {
+    font-size: 80px;
+    font-family: 'Dancing Script', cursive;
+    max-width: 90%;
+}
+
+.form-area {
+    width: 60%;
+    box-shadow: 11px 11px 5px 5px var(--main-black);
+    border: 2px solid var(--main-black);
+}
+
+form {
+    width: 100%;
+}
+
+.flex-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.line {
+    padding: 10px 15px;
+}
+
+.line a {
+    text-decoration: none;
+    color: black;
+}
+
+.line a:hover {
+    text-decoration: underline;
+}
+
+.fname,
+.lname {
+    flex: 1;
+}
+
+.fname {
+    margin-right: 7px;
+}
+
+.lname {
+    margin-left: 7px;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    height: 28px;
+    border: none;
+    background: var(--secondary-white);
+    border-radius: 5px;
+    border-bottom: 2px solid;
+    padding: 2px 5px;
+    margin-top: 5px;
+    font-family: "Roboto Mono";
+}
+
+input[type=text]:active {
+    text-decoration: none;
+}
+
+input[type=submit] {
+    margin: auto;
+    padding: 6px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    background: var(--main-black);
+    color: var(--main-white);
+    font-family: "Roboto Mono";
+}
+
+/* input[type-submit]:hover {
+    background-color: #8094d4;
+} */
+
+.username-error,
+.pwd-error,
+.repeat-pwd-error,
+.common-error {
+    font-size: 11px;
+    min-height: 10px;
+    padding: 0px 15px;
+}
+
+.common-error {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.checkmate {
+    font-family: 'Dancing Script', cursive;
+    color: var(--indigo);
+    /* font-style: none; */
+}
